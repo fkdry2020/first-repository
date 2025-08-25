@@ -120,7 +120,7 @@
         <div id="score-bar"><div id="score-fill"></div></div>
         <p> Pronunciation Score: <span id="score">0%</span></p>
         <audio id="audio-player" controls></audio>
-        <a id="download-link" class="btn" style="display:none;" download="recording.webm">📥 ダウンロード</a>
+        <a id="download-link" class="btn" style="display:none;" download="recording.webm">📥 Download</a>
       </div>
 
       <table id="record-table">
@@ -275,7 +275,7 @@
       if(spk.length>exp.length){
         out += `<span class="highlight-wrong">${spk.slice(exp.length)}</span>`;
       }
-      return `<p><strong>認識結果:</strong> ${out}</p>`;
+      return `<p><strong>Recognition Result:</strong> ${out}</p>`;
     }
     function showInfo(){
       // 팝업에 표시할 일본어 안내문
